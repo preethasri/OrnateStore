@@ -108,7 +108,7 @@
     font-size: 1.8rem;
     border: none;
     padding: 10px;
-    background-color: #C01722;
+    background-color: crimson;
     color: white;
 }
 
@@ -200,6 +200,17 @@
 @media only screen and (max-width:600px) {
     .brand-name {
         font-size: 2rem;
+    }
+    .shop-now-btn {
+        top: 60%;
+        left: 15%;
+    }
+    .img-text {
+        top: 10%;
+        left: 20%;
+        position: absolute;
+        font-size: 1.2rem;
+        font-weight: none;
     }
     .form {
         display: none;
