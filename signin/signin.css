@@ -132,4 +132,16 @@
         width: 90%;
         margin-top: 50px;
     }
+    .nav-icons a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .nav-icons {
+        gap: 0.8rem;
+    }
+    .nav-icons a {
+        font-size: 1rem;
+    }
 }
