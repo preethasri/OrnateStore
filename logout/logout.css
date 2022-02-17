@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    --product-name: #ff2020;
+    --primary-color: #e72744;
+    --secondary-color: #F05524;
+    --primary-btn: #6495ED;
+    --bg-color: #f1f1f1;
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+
+
+/* nav bar */
+
+.landing-page-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    padding: 10px;
+    top: 0;
+}
+
+.brand-name {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.brand-sub-title {
+    color: var(--secondary-color);
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+
+.nav-links {
+    padding-top: 20px;
+}
+
+.nav-links a {
+    color: var(--black-color);
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.search-bar {
+    max-width: 800px;
+    width: 100%;
+}
+
+.search-bar-form {
+    display: flex;
+}
+
+.search-bar-input {
+    flex-grow: 1;
+    padding: 16px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    padding: 15px;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.2rem;
+}
+
+.nav-icons a {
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--black-color);
+}
+
+
+/* logout */
+
+.logout-container {
+    width: 25%;
+    margin: 100px auto 0;
+    border: 1px solid gray;
+    padding: 1.2rem 1.2rem;
+    border-radius: 12px;
+    text-align: center;
+    height: 350px;
+}
+
+.logout-container .fa {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+}
+
+.user-details h2 {
+    padding: 1rem 0;
+}
+
+.logout-btn {
+    padding: 1rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+@media only screen and (max-width:700px) {
+    .brand-name {
+        font-size: 2rem;
+    }
+    .search-bar-form,
+    .filter-container {
+        display: none;
+    }
+    .brand-sub-title {
+        font-size: 12px;
+    }
+    .nav-links {
+        display: none;
+    }
+    .logout-container {
+        width: 70%;
+        margin-top: 30px;
+    }
+    .nav-icons a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .nav-icons {
+        gap: 0.8rem;
+    }
+    .nav-icons a {
+        font-size: 1rem;
+    }
+}
