@@ -110,6 +110,7 @@
     padding: 10px;
     background-color: crimson;
     color: white;
+    border-radius: 5px;
 }
 
 .shop-now-btn:hover {
@@ -204,6 +205,9 @@
     .shop-now-btn {
         top: 55%;
         left: 10%;
+        padding: 5px;
+        border-radius: 3px;
+        font-size: 1rem;
     }
     .img-text {
         top: 10%;
