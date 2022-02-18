@@ -232,7 +232,7 @@
 
 @media only screen and (max-width:600px) {
     .product-grid-container .product-card {
-        width: 40%;
+        width: 46%;
         margin-left: 10px;
     }
     .product-grid-container {
@@ -249,5 +249,8 @@
     }
     .products {
         min-height: 80vh;
+    }
+    .product-grid-container .product-card .product-content {
+        font-size: 10px;
     }
 }
