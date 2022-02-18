@@ -85,21 +85,15 @@
     line-height: 30px;
     padding-left: 1.3rem;
 }
-
-.filter-header {
+.filter-header h2,.clear-btn {
     display: inline-block;
-}
-
-.filter-header h2 {
-    display: inline-block;
-    padding: 10px;
-    padding-left: 0;
+    
 }
 
 .clear-btn {
     all: unset;
-    padding-left: 1.8rem;
-    font-weight: bold;
+    margin-left:60px;
+    border-bottom:1px solid black;
 }
 
 
@@ -165,9 +159,12 @@
 .add-to-cart {
     width: 100%;
     padding: 0.5rem;
-    background-color: #eb2543;
+    background-color: grey;
     color: white;
     border: none;
+}
+.add-to-cart:hover{
+    background-color: #eb2543;
 }
 
 .product-grid-container .product-card .product-content {
@@ -250,4 +247,4 @@
     .products {
         min-height: 80vh;
     }
-}
+} 
